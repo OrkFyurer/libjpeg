@@ -6,7 +6,7 @@ LOCAL_SRC_FILES := jaricom.c jcapimin.c jcapistd.c jcarith.c jccoefct.c jccolor.
  
 LOCAL_C_INCLUDES := $(LOCAL_PATH) 
  
-LOCAL_CFLAGS := -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -DANDROID -DANDROID_TILE_BASED_DECODE -DENABLE_ANDROID_NULL_CONVERT
+LOCAL_CFLAGS := -O3
 
 LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_STATIC_LIBRARY)
 
